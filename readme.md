@@ -449,13 +449,6 @@ CUDA backend 将 vendor 调用隔离在自身的 ops/FFI 和设备资源模块�
 
 当前性能现状：
 
-![perf\_2\_decode\_tpot\_vs\_context\.png](image/perf_2_decode_tpot_vs_context.png)
+![perf\ttft\_tpot\.png](image/summary.png)
 
-![perf\_3\_decode\_tpot\_vs\_concurrency\.png](image/perf_3_decode_tpot_vs_concurrency.png)
-
-![perf\_4\_decode\_throughput\_vs\_concurrency\.png](image/perf_4_decode_throughput_vs_concurrency.png)
-
-当前只简单调优的decode时延，且没有图模式，时延明显低于vllm\-eager。下一步调优吞吐和prefill性能
-
-![perf\_1\_prefill\_ttft\.png](image/perf_1_prefill_ttft.png)
 
