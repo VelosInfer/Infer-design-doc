@@ -449,6 +449,6 @@ CUDA backend 将 vendor 调用隔离在自身的 ops/FFI 和设备资源模块�
 
 当前性能现状：
 
-![perf\ttft\_tpot\.png](image/summary.png)
+![perf.png](image/summary.png)
 
 
